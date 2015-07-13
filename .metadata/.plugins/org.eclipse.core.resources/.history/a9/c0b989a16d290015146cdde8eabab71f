@@ -1,0 +1,6 @@
+$(function(){
+	$("#t2").ready(function(){
+		var num = $("#t1").width("300");
+		alert(num);
+	});
+})

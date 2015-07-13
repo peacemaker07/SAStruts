@@ -1,0 +1,6 @@
+$(function(){
+	$("#t2").redy(function(){
+		var num = $("div").length;
+		alert(num);
+	});
+})

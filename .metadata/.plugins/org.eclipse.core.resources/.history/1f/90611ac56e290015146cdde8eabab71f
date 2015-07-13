@@ -1,0 +1,8 @@
+$(function(){
+	$("#t2").ready(function(){
+		var num1 = $("#t1ta1").width() + $("#t1ta2").width() +$("#t1ta3").width();
+		var num2 = $("#t1ta4").width();
+		var num3 = $("#t1ta5").width();
+		alert(num1);
+	});
+})

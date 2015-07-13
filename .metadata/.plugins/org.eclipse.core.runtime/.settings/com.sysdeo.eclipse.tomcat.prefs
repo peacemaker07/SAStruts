@@ -1,0 +1,7 @@
+computeSourcePath=true
+contextsDir=/opt/local/apache-tomcat-7.0.55/conf/Catalina/localhost
+eclipse.preferences.version=1
+fixTomcatHomeBug=fixed
+tomcatConfigFile=/opt/local/apache-tomcat-7.0.55/conf/server.xml
+tomcatDir=/opt/local/apache-tomcat-7.0.55
+tomcatVersion=tomcatV7
