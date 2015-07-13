@@ -1,9 +1,9 @@
-# SAStrutsで作成したプロジェクト
+### SAStrutsで作成したプロジェクト
 
-* − DoltengTest
+** − DoltengTes **t
 
     SAStruts + S2JDBC
 
-* - sa-struts-tutorial
+** - sa-struts-tutorial **
 
     SAStrutsのチュートリアル
