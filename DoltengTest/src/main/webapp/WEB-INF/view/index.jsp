@@ -35,29 +35,116 @@
 	</table>
 -->
 
-<div>
-	<table id="t1" border="1" >
+<div div="div1" width="100%">
+	<table border="2" width="100%" style="border-color:#FF0000;">
 		<tr>
-			<td id="t1ta1">aaa1</td>
-			<td id="t1ta2">aaa2</td>
-			<td id="t1ta3">aaa3</td>
-			<td id="t1ta4">aaaaaa4</td>
-			<td id="t1ta5">aaa5</td>
-		</tr>
-		<tr>
-			<td id="t1tb1">bbb1</td>
-			<td id="t1tb2">bbbbbbb2</td>
-			<td id="t1tb3">bbbbbbbb3</td>
-			<td id="t1tb4">aaa4</td>
-			<td id="t1tb5">aaa5</td>
+			<td>
+				<table id="t1" border="1" width="100%">
+					<tr>
+						<th>head11</th>
+						<th rowspan="2">head12</th>
+						<th rowspan="2">head13</th>
+						<th colspan="2">head14</ht>
+						<th colspan="2">head15</th>
+						<th>head16</th>
+					</tr>
+					<tr>
+						<th>head21</th>
+						<th>head22</th>
+						<th>head23</th>
+						<th>head24</th>
+						<th>head25</th>
+						<th>head26</th>
+					</tr>
+					<tr>
+						<td id="t1ta1">aaa1</td>
+						<td id="t1ta2">aaa2</td>
+						<td id="t1ta3">aaa3</td>
+						<td id="t1ta4">aaaaaa4</td>
+						<td id="t1ta5">aaa5</td>
+						<td id="t1ta6">aaa6</td>
+						<td id="t1ta7">aaa7</td>
+						<td id="t1ta8">aaa8</td>
+					</tr>
+					<tr>
+						<td id="t1tb1">bbb1</td>
+						<td id="t1tb2">bbbbbbb2</td>
+						<td id="t1tb3">bbbbbbbb3</td>
+						<td id="t1tb4">aaa4</td>
+						<td id="t1tb5">aaa5</td>
+						<td id="t1tb6">aaa6</td>
+						<td id="t1ta7">bbb7</td>
+						<td id="t1ta8">bbb8</td>
+					</tr>
+				</table>
+			</td>
 		</tr>
 	</table>
 
-	<div style="margin-top: 5px">
-		<table class="t-border-collapse" id="t2" border="1" >
+	<div style="margin-top: 5px; margin-left: 15px">
+		<table class="t-border-collapse" id="t2">
 			<tr>
-				<td class="t-line" id="t2ta1">a</td>
+				<td id="t2ta1" align="right">a</td>
 				<td class="t-line" id="t2ta2">a</td>
+				<td class="t-line" id="t2ta3">a</td>
+				<td class="t-line" id="t2ta4">a</td>
+			</tr>
+		</table>
+	</div>
+</div>
+
+<div id="div2" style="margin-top: 10px;" width="100%">
+	<table border="2" width="100%" style="border-color:#FF0000;">
+		<tr>
+			<td>
+				<table id="tt1" border="1" width="100%">
+					<tr>
+						<th>head11</th>
+						<th rowspan="2">head12</th>
+						<th rowspan="2">head13</th>
+						<th colspan="2">head14</ht>
+						<th colspan="2">head15</th>
+						<th>head16</th>
+					</tr>
+					<tr>
+						<th>head21</th>
+						<th>head22</th>
+						<th>head23</th>
+						<th>head24</th>
+						<th>head25</th>
+						<th>head26</th>
+					</tr>
+					<tr>
+						<td id="t1ta1">aaa1</td>
+						<td id="t1ta2">aaa2</td>
+						<td id="t1ta3">aaa3</td>
+						<td id="t1ta4">aaaaaa4</td>
+						<td id="t1ta5">aaa5</td>
+						<td id="t1ta6">aaa6</td>
+						<td id="t1ta6">aaa7</td>
+						<td id="t1ta6">aaa8</td>
+					</tr>
+					<tr>
+						<td id="t1tb1">bbb1</td>
+						<td id="t1tb2">bbbbbbb2</td>
+						<td id="t1tb3">bbbbbbbb3</td>
+						<td id="t1tb4">aaa4</td>
+						<td id="t1tb5">aaa5</td>
+						<td id="t1tb6">aaa6</td>
+						<td id="t1ta6">bbb7</td>
+						<td id="t1ta6">bbb8</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+
+	<div style="margin-top: 5px; margin-left: 15px">
+		<table class="t-border-collapse" id="tt2">
+			<tr>
+				<td id="t2ta1" align="right">a</td>
+				<td class="t-line" id="t2ta2">a</td>
+				<td class="t-line" id="t2ta3">a</td>
 				<td class="t-line" id="t2ta3">a</td>
 			</tr>
 		</table>
