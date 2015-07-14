@@ -1,8 +1,0 @@
-DaoType=None
-DefaultResourcePath=/DoltengTest/src/main/resources
-DefaultRootPackage=jp.co.doltengtest
-DefaultSrcPath=/DoltengTest/src/main/java
-ServletPath=/DoltengTest
-ViewType=None
-WebContentsRoot=src/main/webapp/
-eclipse.preferences.version=1

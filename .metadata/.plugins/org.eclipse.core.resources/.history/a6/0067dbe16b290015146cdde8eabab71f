@@ -1,5 +1,0 @@
-$(function(){
-	$(#t2).load(function(){
-		$(this).css("border-style", "3px")
-	});
-})
