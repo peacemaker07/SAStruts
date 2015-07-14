@@ -1,9 +1,9 @@
 $(function(){
 	$(document).on('ready', moveTotal);
-//	$(document).on('ready', moveTotal2(jQuery('#t1 tr:eq(2) td'), jQuery('#t2 tr:eq(0) td')));
-//	$('#t1').on('resize', moveTotal2(jQuery('#t1 tr:eq(2) td'), jQuery('#t2 tr:eq(0) td')));
-	$(document).on('ready', moveTotal2(jQuery('#tt1 tr:eq(2) td'), jQuery('#tt2 tr:eq(0) td')));
-	$('#tt1').on('resize', moveTotal2(jQuery('#tt1 tr:eq(2) td'), jQuery('#tt2 tr:eq(0) td')));
+//	$(document).on('ready', moveTotal2($('#t1 tr:eq(2) td'), $('#t2 tr:eq(0) td')));
+//	$('#t1').on('resize', moveTotal2($('#t1 tr:eq(2) td'), $('#t2 tr:eq(0) td')));
+	$(document).on('ready', moveTotal2($('#tt1 tr:eq(2) td'), $('#tt2 tr:eq(0) td')));
+	$('#tt1').on('resize', moveTotal2($('#tt1 tr:eq(2) td'), $('#tt2 tr:eq(0) td')));
 	function moveTotal(){
 		var num1 = $('#t1ta1').innerWidth() + $('#t1ta2').innerWidth() + $('#t1ta3').innerWidth() + $('#t1ta4').innerWidth()+ $('#t1ta5').innerWidth();
 		var num2 = $('#t1ta6').innerWidth();
